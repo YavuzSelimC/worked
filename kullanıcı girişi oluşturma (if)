@@ -7,7 +7,7 @@
 	<body>
   
   <?php
-  //  kullanıcı girişişi oluşturma
+  //  kullanıcı girişi oluşturma
   $kadi="yavuz";
 	$pass="123456"; 
   if ($kadi==$_POST['kullanici_ad'] AND $_POST['kullanici_password']==$pass) {
